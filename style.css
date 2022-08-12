@@ -1,0 +1,71 @@
+
+h1, h2 {
+    margin: 20px;
+}
+
+
+.nav_links {
+    background-color: gray;
+    height: 100px;
+}
+
+/*Name header*/
+.name {
+    float: left;
+    margin: 30px 800px 50px 125px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+/*Tabs for navigation bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}
+
+li {
+    display: inline;
+    
+}
+
+/*Navigation bar text alignment properties*/
+li a {
+    margin: 50px 30px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    
+    
+}
+
+/*Contact info property*/
+.contact li {
+    margin: 0 30px;
+    
+}
+
+/*Profile image*/
+img {
+    width: 220px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 25px 100px 25px 100px;
+    float: left;
+}
+
+.text {
+    text-align: center;
+    width: 500px;
+    margin: 50px 300px;
+    padding: 0;
+}
+
+.about {
+    margin: 50px 20px 50px 20px;
+}
