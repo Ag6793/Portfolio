@@ -7,4 +7,4 @@ This is my portfolio page.
 
 Technologies used: HTML and CSS
 
-Deployed webpage:
+Deployed webpage: https://ag6793.github.io/Portfolio/
