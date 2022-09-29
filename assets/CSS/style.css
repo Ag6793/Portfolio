@@ -1,0 +1,127 @@
+/* Include max & min sizing for mobile friendly display */
+
+
+/* Fits image into square size */
+/* #projectimg img {
+    object-fit: cover;
+} */
+
+
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Corben', cursive;
+  letter-spacing: 2px;
+}
+
+header {
+  padding: 35px;
+  padding-left: 90px;
+  background-color: grey;
+  
+}
+
+#paragraph1 {
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 30px;
+}
+.flexbox{
+  clear: both;
+    
+}
+  
+.column {
+  float: left;
+  padding: 10px;
+  margin-bottom: 30px;
+   
+}
+
+.left{
+  width: 25%;
+  margin-left: 5%;
+  height: 130px;
+  text-align: center;
+}
+  
+.right {
+  width: 50%;
+  margin: 10px;
+  margin-bottom: 30px;
+  border-style: hidden hidden hidden solid;
+}
+
+
+.project-img {
+  border-style: hidden hidden hidden solid;
+}
+ 
+#work {
+  margin-right: 10px;
+}
+
+#info {
+  margin: 10px;
+}
+
+.nav-bar {
+  font-size: 15px;
+  display: inline;
+  margin: 10px;
+  position: relative;
+  right: -70%;
+  top: -40px;
+}
+
+footer {
+  text-align: center;
+  font-size: 15px;
+  position: absolute;
+  bottom: -26px;
+  margin-left: 45%;
+}
+
+img {
+  object-fit: cover;
+  margin-left: 50px;
+  
+}
+
+#chevron{
+  height:150px;
+  width: 100%;
+  margin: 0;
+}
+
+/* Image Border */
+img.work-img{
+  border: 10px solid #a8a8a8;
+}
+
+/* Hover effect for the project images */
+img.work-img:hover{
+  transform: scale(1.1);
+  transition: 1s ease;
+  opacity: 0.7;
+}
+
+#headshot {
+  width: 250px;
+  height: 350px;
+  float:left;
+  border: 10px solid #a8a8a8;
+  margin: 25px;
+}
+
+#container{
+  position: absolute;
+  margin-bottom: 3rem;
+
+}
+
+h3:hover{
+  color: white;
+}
