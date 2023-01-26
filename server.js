@@ -7,7 +7,7 @@ const PORT = 3001;
 app.use(express.static('public'));
 
 //change app.get to create the correct route for portfolio page
-app.get('/', (req, res) => res.send('Navigate to /about or /contact or /projects'));
+app.get('/', (req, res) => res.send('Navigate to /about or /contact'));
 
 app.get('/about', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/about.html'))
@@ -17,7 +17,6 @@ app.get('/contact', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/contact.html'))
 );
 
-//Projects route isn't working
 app.get('/projects', (req, res) =>
   res.sendFile(path.join(__dirname, 'public/projects.html'))
 );
@@ -25,3 +24,5 @@ app.get('/projects', (req, res) =>
 app.listen(PORT, () =>
   console.log(`Example app listening at http://localhost:${PORT}`)
 );
+
+//Need to make a path to return home from any page

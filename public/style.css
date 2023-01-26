@@ -92,9 +92,12 @@ header {
 footer {
   text-align: center;
   font-size: 15px;
-  position: absolute;
-  bottom: -12rem;
-  left: 37.6%;
+  position: relative;
+  /* bottom: -12rem;
+  left: 37.6%; */
+  /* margin: 10px auto 10px auto;
+  left: 0px;
+  right: 0px; */
   padding-bottom: 2rem;
 }
 
@@ -129,9 +132,8 @@ img.work-img:hover{
 
 }
 
-h3:hover{
+h3 a:hover{
   color: rgb(255, 182, 37);
-  /* background-color: rgb(46, 46, 129); */
 }
 
 .hover-underline{
@@ -179,3 +181,41 @@ a {
 }
 /* Media Query for responsiveness */
 @media screen and (max-width: 480px) {}
+
+/* =============================================== homepage styling "welcome" */
+
+/* Homepage welcome block */
+#homepage {
+  color: white;
+  text-align: center;
+  font-size: 65px;
+  background-color:rgb(23, 23, 62);
+  width: 1000px;
+  height: 500px;
+  margin: 10rem auto 10rem auto;
+  border: 10px solid rgb(255, 182, 37);
+}
+
+/* Positions footer on homepage */
+#footer_home{
+  bottom: -3rem;
+  position: relative;
+  color: rgb(23, 23, 62);
+}
+
+h4 {
+  font-size: 35px;
+  position: relative;
+  top: 1rem;
+}
+
+/* Positions navigation text on the front page */
+.home_nav {
+  float: none;
+  left: 0rem;
+}
+
+/* Hover color to nagivation */
+.home_nav a:hover{
+  color: rgb(255, 182, 37);
+}
